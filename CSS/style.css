@@ -1,0 +1,69 @@
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+div.container{
+  border: 5px solid red;
+  width: 80%;
+  margin: 0 auto;
+  background-color: azure;
+}
+header{
+  background-color: bisque;
+  color: rgb(2, 2, 12);
+  font-family: 'Times New Roman', Times, serif;
+  font-variant:small-caps;
+  font-size:larger;
+  font-weight: bolder;
+} 
+.hero img{
+  width: 100%;
+  border: 2px dotted maroon;
+}
+div.left, div.middle, div.right {
+  border: 5px dashed green;
+  width: 30%;
+
+}
+
+aside img{
+  width:100%;
+}
+aside{
+  display: flex;
+  justify-content: space-around;
+}
+nav{
+  background-color: dimgrey;
+}
+
+ul{
+  text-align: center;
+}
+li{
+  display: inline-block;
+  width: 115px;
+  background-color: grey;
+  line-height: 3em;
+  font-family: 'Times New Roman', Times, serif;
+  font-variant: small-caps;
+  font-style: oblique;
+  font-size: large;
+  font-weight:400;
+}
+a{
+  color: white;
+  text-decoration: none;
+  display: block;
+}
+footer{
+    background-color: beige;
+    color: darkgreen;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-variant: small-caps;
+    font-size: medium;
+    font-weight: 200;
+}
